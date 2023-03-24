@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+	<head>  
+        <title>Pedido - Juh Martins Outlet</title>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Descrição completa do conteudo da pag limitada a 156 caracteres."/>
+        <meta name="keywords" content="canecas, quadros, abridor, camisas"/>
+        <link rel="icon" href="imagens/Logoicone.png" type="image/png"/>
+        <link rel="stylesheet" href="ESTILO.css">        
+           
+   
+    <style>
+        *{
+            margin:0;
+            box-sizing: border-box;            
+            padding:0;
+        }
+
+        section.pagamento{
+          display: inline-table;
+          max-width: auto;
+          justify-content: space-around;
+          padding: 110;
+          margin: 20px;  
+        }
+        .descricao-pagamento{
+            width: 40%;
+        }
+
+        .descricao-pagamento h3{
+            color: black;
+            font-size: 25px;
+            
+        }
+
+        .descricao-pagamento h2{
+            color: black;
+            font-size: 40px;
+            
+        }
+
+        .form-pagamento{
+            -webkit-box-shadow: -8px 5px 15px 5px #c7c7c7; /*sombreado*/
+            box-shadow: -8px 5px 15px 5px #c7c7c7; /*sombreado*/
+            padding: 30px; /*altura box*/
+            width: 180%; /*largura box*/
+            
+        }
+        .form-pagamento form{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .form-30 { width: 150px; display: flex; margin-bottom: 10px;  } /*form-imagem*/
+
+       /* .form-100 { width: 100%; display: block; margin-bottom: 10px;  } /*formcx-endereco*/*/
+
+       .form-100{width: 100%;margin-bottom: 10px;}
+
+        .form-50 { width: 100px; margin-bottom: 10px; } /*form-pagamento*/
+
+        .form-80 { width: 70px; margin-bottom: 10px; } /*form-pagamento*/
+
+        .form-pagamento label{
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-pagamento input[type=text]{
+            padding-left: 10px;
+            width: 100%;
+            height: 40px;
+            border: 1px solid #c7c7c7;
+        
+        }
+
+        .form-pagamento input[type=submit]{
+            width: 100%;
+            height: 40px;
+            border: 0;
+            cursor: pointer;
+            background-color: #069;
+            color: white;
+        }
+
+    </style>          
+            
+	</head>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <body>
+        <div class="img" align="center">
+            <img src="imagens/logofundobranco.png" width="350x"/>
+            <img src="imagens/fundoresdes.png" width="250px" align="Right"/>
+                    
+        <nav id="menu">
+            
+            <br> <br> <br> <br><br> <br> <br> <br>
+            <br> <br> <br>      <p> <a href="HOME.html"><img src="imagens/home.png" width="200px"/></a> </p>
+            <br> <br> <br>      <p> <a href="PRODUTO.html"><img src="imagens/produtos.png" width="200px"/></a> </p>
+            <br> <br> <br>      <p> <a href="PAGAMENTO.html"><img src="imagens/pedido.png" width="200px"/></a> </p>
+            <br> <br> <br>      <p> <a href="LOCALIZACAO.html"><img src="imagens/localização.png" width="200px"/></a> </p>
+            <br> <br> <br>      <p> <a href="CONTATO.html"><img src="imagens/contato.png" width="200px"/></a> </p>
+            
+        </nav>
+
+        </div>              
+          
+            <!--section inicio imagem
+            <section class="pagamento">                
+                <div class="form-pagamento" >
+                    <form method="POST">                                               
+                        <div class="form-30">
+                    <img src="imagens/almofadas.png" width="auto"  height="300"/>
+                    </form> 
+                        </div>                      
+                </div>
+              </section>
+            section fim imagem-->
+        <form method="post">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            
+             <!--section inicio pagamento-->    
+             
+             <section class="pagamento" align="center" >                
+                <div class="form-pagamento">                    
+                                       
+                    <div class="form-100">
+                    <font face="helvetica">   <input type="submit" name="acao" value="ITEM" /> </font>
+                        
+                    </div>
+                    <br> <font face="helvetica"> <h5>PEDIDO EM PROCESSO</h5></font> <br/>
+                         <img src="imagens/almofadas.png" width="200"  height="200"/>                                                        
+                                    
+                </div>
+              </section>    <!--section fim pagamento-->
+               
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 
+            <section class="pagamento" align="center" >                
+                <div class="form-pagamento">                    
+                                       
+                    <div class="form-100">
+                    <font face="helvetica">   <input type="submit" name="acao" value="PIX" /> </font>
+                    
+                    </div>
+                    <br> <font face="helvetica"> <h5>CARTÃO DE CRÉDITO</h5></font> <br/>
+                    <div class="form-100">
+                        <font face="helvetica"> <label>Email:</label></font>
+                        <input type="text" />
+                    </div>  
+                    <div class="form-100">
+                        <br> <font face="helvetica"><label>Dados do Cartão</label></font>
+                        <input type="text" placeholder="1234 1234 1234 1234"/>
+                        <div class="form-50">
+                            <input type="text" placeholder="12/2027" />
+                            <input type="text" placeholder="CVC"/>
+                        </div>
+                    </div>
+                    <div class="form-100">
+                        <font face="helvetica">   <input type="text" placeholder="Nome do Cartão" /> </font>
+                    </div> <br>
+                    <div class="form-100">
+                        <font face="IMPACT">   <input type="submit" name="acao" value="PAGAR" /> </font>
+    
+                    </div>
+                
+                </div>
+              </section>    <!--section fim pagamento-->
+                         
+    	    
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             
+    
+            <section class="pagamento">        
+                 <div class="form-pagamento">
+            
+                    <div class="form-100">
+                        <font face="helvetica">  <label>Nome Completo</label> </font>
+                        <input type="text" />
+                    </div>  
+                    <div class="form-100">
+                       <font face="helvetica">   <label>Endereço</label> </font>
+                        <input type="text"  placeholder="Rua:" />
+                        <br><br/>
+    
+                        <div class="form-100">
+                            <font face="helvetica">    <label>CEP</label> </font>
+                                <font face="helvetica">   <input type="text"  placeholder="07175-456" /> </font>
+                                <BR><br/>
+    
+                           
+                        <div class="form-100">
+                            <font face="helvetica">   <label>Número</label> <input type="text" ></font>
+                        </div>
+                           
+                        <div>
+                            <font face="helvetica"> <label>Complemento</label> <input type="text" ></font>
+                        </div>
+                    </div>
+                    <div class="form-100">
+                        <font face="helvetica">  <label>Bairro</label>  <input type="text"> </font>
+                    </div>
+                      
+                     </div>
+                     <div class="form-100">
+                        <font face="helvetica"> <label>Cidade</label>  <input type="text"> </font>
+                      </div>
+                                   
+                    <BR>    
+                    <div class="form-100">
+                        <font face="helvetica">  <input type="submit" name="acao" value="SALVAR" /> </font>
+    
+                    </div>   
+        
+    
+                </form>
+            </div>
+          </section><!--form-endereco-->
+          
+          <form name="Localizacao" method="post" align="center">                                                                                                                               
+            <br><br>
+               <a href="https://wa.me/5533991967301"                                  > <img src="imagens/zap.png" width="40px"/> </a> 
+               <a href="https://www.facebook.com/JuhMartinsOutlet?mibextid=ZbWKwL"    > <img src="imagens/face.png" width="40px"/> </a> 
+               <a href="https://instagram.com/juhmartinsoutlet?igshid=ZDdkNTZiNTM="   > <img src="imagens/instagram.png" width="40px"/></a> 
+               <a href="https://www.tiktok.com/@juhmartinsoutlet?_t=8ahN1h840Ll&_r=1" > <img src="imagens/tiktok.png" width="37px"/> </a> 
+               <a href="https://kwai-video.com/u/@julianamartins684/CNRhpa1w"> <img src="imagens/kwai.png" width="38px"/> </a> 
+               <a href="https://mycollection.shop/juhmartinsoutlet"         > <img src="imagens/shopee.png" width="40px"/> </a>
+       
+        </form>
+                   <!-- footer section --> 
+          
+          
+          <p><footer class="footer_section" align="rodape">
+            <div class="container" align="center">
+                   <p> <font size="3" face="Verdana"> <strong> &copy;2023 All Rights Reserved By Juh Martins Outlet</a><br> Distributed By: Juh Martins Outlet</a> </strong></font></p>
+            </div>
+        </footer></p>
+          <!-- footer section -->
+
+                           
+                
+    </div>    
+    
+    </body>
+
+</html>
