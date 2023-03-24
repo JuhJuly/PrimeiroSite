@@ -1,0 +1,11 @@
+Criar no git hub um repositorio marcado readme
+copiar o url
+ir no documento do pc e abrir o gitbash
+
+git clone url
+apos criado abrir o git bash na pasta criada
+inserir arquivos
+git status
+git add *
+git commit -m "primeiro"
+git push
